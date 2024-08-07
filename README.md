@@ -1,8 +1,8 @@
 # Jobboard data description
 
-Jobboard data framwork is searching for jobs in mulitple jobboards using Node.js for API extraction and Playwright for UI extraction, with TypeScript.<br>
-Qualify those jobs based on multiple criterias and ChatGPT(eg: xing-api.ts).<br>
-And returns a qualifed list of JSON jobs for manual validatation and application.
+Jobboard data framework is searching for jobs in multiple job boards using Node.js for API extraction and Playwright for UI extraction, with TypeScript.<br>
+Qualify those jobs based on multiple criteria and ChatGPT(eg: xing-api.ts).<br>
+And returns a qualified list of JSON jobs for manual validation and application.
 
 ## Installation command
 
@@ -14,13 +14,13 @@ npx ts-node index.ts
 
 
 ## Usage 
-Searching criteria for jobboards website: 
+Searching criteria for job boards website: 
  - [qa, test, automation]
  - Contract, Full-time, Freelancer, Self-employed, Employment
  - Remote
  - Jobs from last week (when possible)
  - European countries
- - All domains (IT, Engineering, Finace) - ex: QA banking posted in Finance category
+ - All domains (IT, Engineering, Finance) - ex: QA banking posted in Finance category
  - Both: Contract + Permanent position 
 
  Jobs qualifications:
@@ -34,5 +34,7 @@ Searching criteria for jobboards website:
 
 
 ## Notes 
- - Private respository initally didn't stored the OpenAI API key in .env file, that's why a new public repository is created
- - Every search query is custom per website in order to get the best results 
+ - Private repository initially didn't store the OpenAI API key in .env file, that's why a new public repository is created
+ - Every search query is custom per website to get the best results 
+
+ 
