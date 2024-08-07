@@ -2,8 +2,7 @@
 
 Jobboard data framwork is searching for jobs in mulitple jobboards using Node.js for API extraction and Playwright for UI extraction, with TypeScript.<br>
 Qualify those jobs based on multiple criterias and ChatGPT(eg: xing-api.ts).<br>
-And returns a qualifed list of JSON jobs for manual validatation and application.<br>
-
+And returns a qualifed list of JSON jobs for manual validatation and application.
 
 ## Installation command
 
@@ -33,6 +32,7 @@ Searching criteria for jobboards website:
  How to use it:
  - When between projects, execute it daily to get new available jobs, validate those manually, and apply if fit
 
- Notes: 
- - Find API jobs results in incognito
+
+## Notes 
+ - Private respository initally didn't stored the OpenAI API key in .env file, that's why a new public repository is created
  - Every search query is custom per website in order to get the best results 
