@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,  
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["./api/**/*.ts", "api-critical/xing-api.ts", "index.ts", "api-critical/startup-api.ts", "minor/workingnomads-api.ts", "api-major/workday-api.ts", "api-critical/reed-api.ts", "api-major/jeffersonfrank-api.ts", "api-major/euremotejobs-html-api.ts", "api-major/austinfraser-api.ts", "api-major/arenellaict-api.ts"],
+  "exclude": ["node_modules"]
+}

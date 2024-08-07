@@ -1,0 +1,47 @@
+{
+  "name": "jobboards-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "tests": "npx playwright test",
+    "tests:head": "npx playwright test --workers=6 --headed",
+    "tests:trace": "npx playwright test --trace on",
+    "tests:chrome": "npx playwright test --project=chromium",
+    "tests:firefox": "npx playwright test --project=firefox",
+    "mobile:chrome": "npx playwright test --project=mobileChrome --headed",
+    "tests:debug": "npx playwright test --debug",
+    "tests:report": "npx playwright show-report",
+    "tests:allure": "npx playwright test --reporter=allure-playwright",
+    "tests:allure:head": "npx playwright test --workers=6 --headed --reporter=allure-playwright",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open ./allure-report",
+    "format:pretty": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgherman997/jobboards-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.10",
+    "@types/node-fetch": "^2.6.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "2captcha": "^3.0.5-2",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.53.0"
+  }
+}

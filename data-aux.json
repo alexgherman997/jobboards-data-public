@@ -1,0 +1,262 @@
+{
+  "data": {
+      "job": {
+          "id": "123413621.c2d4fc",
+          "slug": "amsterdam-senior-crm-specialist-123413621",
+          "url": "https://www.xing.com/jobs/amsterdam-senior-crm-specialist-123413621",
+          "title": "Senior CRM Specialist (m/f/d)",
+          "activatedAt": "2024-08-02T00:06:20Z",
+          "globalId": "surn:x-xing:jobs:posting:123413621.c2d4fc",
+          "location": {
+              "city": "Amsterdam",
+              "__typename": "JobLocation",
+              "street": "",
+              "cityId": null,
+              "zipCode": "1083",
+              "region": null,
+              "country": {
+                  "countryCode": "DE",
+                  "localizationValue": "Germany",
+                  "__typename": "Country"
+              }
+          },
+          "employmentType": {
+              "localizationValue": "Self-employed",
+              "__typename": "EmploymentType",
+              "id": "CONTRACTOR.0ed397"
+          },
+          "companyInfo": {
+              "companyNameOverride": "AVANTGARDE Experts",
+              "company": {
+                  "id": "352746.3af5ea",
+                  "logos": {
+                      "x1": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGVkMDhkNzUtYjJmYi00MWNjLTliYTctOTMxZTY3OGYxNjBhIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=91f63ded7ab1f39f130ed00ae30c05b27747647867199df34d74311998eb8860",
+                      "__typename": "CompanyLogos",
+                      "logo96px": "https://www.xing.com/imagecache/public/scaled_original_image/eyJ1dWlkIjoiZGVkMDhkNzUtYjJmYi00MWNjLTliYTctOTMxZTY3OGYxNjBhIiwiYXBwX2NvbnRleHQiOiJlbnRpdHktcGFnZXMiLCJtYXhfd2lkdGgiOjk2LCJtYXhfaGVpZ2h0Ijo5Nn0?signature=91f63ded7ab1f39f130ed00ae30c05b27747647867199df34d74311998eb8860"
+                  },
+                  "kununuData": {
+                      "ratingAverage": 3.9,
+                      "__typename": "CompanyKununuData",
+                      "companyProfileUrl": "https://www.kununu.com/de/avantgardeexperts",
+                      "mappedBenefits": [
+                          {
+                              "type": "FLEXITIME",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "HOME_OFFICE",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "COMPANY_PENSION",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "COMPANY_DOCTOR",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "CONVENIENT_TRANSPORT_LINKS",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "EVENTS_FOR_EMPLOYEES",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "CANTEEN",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "MOBILE_DEVICE",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "PRIVATE_INTERNET_USE",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "DOGS_WELCOME",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "TRAINING",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "DISCOUNTS_SPECIAL_OFFERS",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "COMPANY_CAR",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "PROFIT_SHARING",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "ACCESSIBILITY",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "CAR_PARK",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "RESTAURANT_TICKETS",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "HEALTH_IN_THE_WORKPLACE",
+                              "__typename": "CompanyMappedBenefit"
+                          },
+                          {
+                              "type": "CHILDCARE",
+                              "__typename": "CompanyMappedBenefit"
+                          }
+                      ],
+                      "ratingCount": 509,
+                      "culture": null
+                  },
+                  "__typename": "Company",
+                  "companySize": "1,001-5,000 employees",
+                  "links": {
+                      "public": "https://www.xing.com/pages/avantgardeexperts",
+                      "__typename": "CompanyLinks"
+                  },
+                  "industry": {
+                      "localizationValue": "HR services and consulting",
+                      "__typename": "Industry"
+                  },
+                  "address": {
+                      "city": "München",
+                      "country": {
+                          "localizationValue": "Germany",
+                          "__typename": "Country"
+                      },
+                      "__typename": "CompanyAddress"
+                  },
+                  "userContext": {
+                      "followState": {
+                          "isFollowing": false,
+                          "__typename": "CompanyFollowState"
+                      },
+                      "__typename": "CompanyUserContext"
+                  }
+              },
+              "__typename": "JobCompanyInfo"
+          },
+          "salary": null,
+          "__typename": "VisibleJob",
+          "activeUntil": "2024-09-01T00:06:36Z",
+          "application": {
+              "__typename": "UrlApplication",
+              "applyUrl": "https://karriereportal.avantgarde-experts.de/job/view/45044/senior-crm-specialist-m-f-d?page_lang=en"
+          },
+          "banner": null,
+          "careerLevel": {
+              "id": "3.2ebf16",
+              "localizationValue": "Professional/Experienced",
+              "__typename": "CareerLevel"
+          },
+          "description": {
+              "sectionTitleColor": "#006e80",
+              "genericDescription": null,
+              "companyDescriptionTitle": "ABOUT US",
+              "companyDescriptionContent": "<p>AVANTGARDE Experts is the right place for digital natives! We connect interesting positions in the digital industry. Take the opportunity to apply directly for one of the diverse positions with our attractive clients!</p><p><strong>We are filling the following position for our client, a German household appliances manufacturer, on a freelance basis:</strong></p><p><strong>SENIOR CRM SPECIALIST (M/F/D)</strong></p>",
+              "responsibilityTitle": "YOUR TASKS",
+              "responsibilityContent": "<ul>\n<li>You will develop and execute comprehensive email campaigns to enhance customer engagement and retention</li>\n<li>You'll use the Bloomreach Engagement platform to its full potential, creating targeted campaigns and insightful customer analytics</li>\n<li>You are tasked with optimizing and refining current campaigns and automation workflows with a focus on technical and logical enhancements</li>\n<li>You'll consult cross-functional teams to align CRM strategies with broader marketing goals</li>\n<li>You analyze campaign performance and customer data to continuously improve and personalize the customer journey</li>\n</ul>",
+              "skillsTitle": "YOUR QUALIFICATIONS",
+              "skillsContent": "<ul>\n<li>You should have proven experience as a CRM Marketer, preferably in a senior role</li>\n<li>You must be proficient in Marketing Automation tools and strategies, driving customer engagement and retention</li>\n<li>You should possess in-depth knowledge of the Bloomreach Engagement platform</li>\n<li>You need to be proficient in English as it's mandatory for the role</li>\n<li>You must be able to adapt easily in a fast-paced environment and be comfortable working with short deadlines</li>\n</ul>",
+              "weOfferTitle": "FACTS",
+              "weOfferContent": "<ul>\n<li>Start: ASAP</li>\n<li>Duration: 5 months (until October 31, 2024)</li>\n<li>Workload: 96 (3 days per week à 8 hours)</li>\n<li>Location:  Fully remote (first weeks in the office for onboarding in Amsterdam)</li>\n</ul>",
+              "contactInfoTitle": "INTERESTED?",
+              "contactInfoContent": "<p>Then we look forward to receiving your portfolio incl. hourly rate and availability via our online portal.</p>",
+              "headerImage": "https://static.xingcdn.com/jobs-details-backend/zbl3l5uygdq2zm7zvcbfxatwd8ph",
+              "footerImage": null,
+              "videoUrls": {
+                  "youtube": "https://www.youtube.com/embed/Z0kTujlzYyo",
+                  "vimeo": null,
+                  "__typename": "TemplateDataVideoUrls"
+              },
+              "socialUrls": {
+                  "website": "https://www.avantgarde-experts.de/de/",
+                  "facebook": "https://www.facebook.com/avantgarde.experts/",
+                  "twitter": null,
+                  "youtube": null,
+                  "xing": "https://www.xing.com/pages/avantgardeexperts",
+                  "instagram": null,
+                  "pinterest": null,
+                  "tiktok": null,
+                  "kununu": "https://www.kununu.com/de/avantgardeexperts",
+                  "__typename": "TemplateDataSocialUrls"
+              },
+              "__typename": "TemplateData"
+          },
+          "discipline": {
+              "id": "1013.2ed6ec",
+              "localizationValue": "Marketing and advertising",
+              "__typename": "Discipline"
+          },
+          "industry": {
+              "id": "20000.590ca2",
+              "localizationValue": "Consumer goods and trade",
+              "__typename": "Industry"
+          },
+          "jobCode": "45044_republished-3",
+          "keywords": [
+              "marketing",
+              "sales",
+              "digital",
+              "crm",
+              "automation",
+              "customer",
+              "analytics",
+              "focus",
+              "platform",
+              "journey"
+          ],
+          "language": "en",
+          "matchingHighlights": {
+              "highlight": null,
+              "matchingFacts": [],
+              "__typename": "JobMatchingHighlightsV2"
+          },
+          "paid": true,
+          "prioritized": true,
+          "remoteOptions": [
+              "FULL_REMOTE"
+          ],
+          "serviceOfferingGroup": 0,
+          "summary": {
+              "trackingToken": "llm_gateway.job-summary:7f3f604d-50bf-11ef-b319-5e899a1e588a",
+              "content": {
+                  "introduction": "AVANTGARDE Experts is hiring a Senior CRM Specialist in Amsterdam. The company connects digital industry positions and is filling this role for a German household appliances manufacturer on a freelance basis.",
+                  "qualifications": [
+                      "Proven experience as a CRM Marketer.",
+                      "Proficiency in Marketing Automation tools and strategies.",
+                      "In-depth knowledge of Bloomreach Engagement platform."
+                  ],
+                  "keyResponsibilities": [
+                      "Develop and execute email campaigns for customer engagement.",
+                      "Utilize Bloomreach Engagement platform for targeted campaigns.",
+                      "Optimize current campaigns and consult cross-functional teams."
+                  ],
+                  "__typename": "JobSummaryContent"
+              },
+              "__typename": "JobSummary"
+          },
+          "topJob": false,
+          "userInteractions": {
+              "application": null,
+              "bookmark": {
+                  "state": "NOT_BOOKMARKED",
+                  "__typename": "JobBookmark"
+              },
+              "__typename": "JobUserInteractions"
+          },
+          "video": null
+      }
+  }
+}
