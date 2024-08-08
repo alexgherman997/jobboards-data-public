@@ -10,9 +10,10 @@ npm i
 
 ## Configuration .env variables
 
+Step to create enviorement variables:
+
 - cd jobboards-data-public
 - touch .env
-  Create below enviorement variables:
 - EMAIL = 'login email for the website freelancermap.de'
 - PASSWORD = 'password for the email'
 - OPENAI_API_KEY = 'your OpenAI API key'
