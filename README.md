@@ -10,7 +10,7 @@ npm i
 
 ## Configuration .env variables
 
-Step to create enviorement variables:
+Steps to create enviorement variables:
 
 - cd jobboards-data-public
 - touch .env
