@@ -8,33 +8,45 @@ And returns a qualified list of JSON jobs for manual validation and application.
 
 npm i
 
-## Execution command 
+## Configuration .env variables
+
+- cd jobboards-data-public
+- touch .env
+  Create below enviorement variables:
+- EMAIL = 'login email for the website freelancermap.de'
+- PASSWORD = 'password for the email'
+- OPENAI_API_KEY = 'your OpenAI API key'
+
+Note - https://platform.openai.com/docs/overview - in order to get your API key most probably you have to take a subscription for tokens, if you don't want to do that do OPENAI_API_KEY = 1 - and the data extraction from the job boards use ChatGPT will throw a error
+
+## Execution command
 
 npx ts-node index.ts
 
+## Usage
 
-## Usage 
-Searching criteria for job boards website: 
- - [qa, test, automation]
- - Contract, Full-time, Freelancer, Self-employed, Employment
- - Remote
- - Jobs from last week (when possible)
- - European countries
- - All domains (IT, Engineering, Finance) - ex: QA banking posted in Finance category
- - Both: Contract + Permanent position 
+Searching criteria for job boards website:
 
- Jobs qualifications:
- - [qa, test, automation, quality assurance] - words in title
- - Job reviewed for the first time (not find in jobs.json)
- - Allow to work from a different country
- - ChatGPT validation based on my experience
+- [qa, test, automation]
+- Contract, Full-time, Freelancer, Self-employed, Employment
+- Remote
+- Jobs from last week (when possible)
+- European countries
+- All domains (IT, Engineering, Finance) - ex: QA banking posted in Finance category
+- Both: Contract + Permanent position
 
- How to use it:
- - When between projects, execute it daily to get new available jobs, validate those manually, and apply if fit
+Jobs qualifications:
 
+- [qa, test, automation, quality assurance] - words in title
+- Job reviewed for the first time (not find in jobs.json)
+- Allow to work from a different country
+- ChatGPT validation based on my experience
 
-## Notes 
- - Private repository initially didn't store the OpenAI API key in .env file, that's why a new public repository is created
- - Every search query is custom per website to get the best results 
+How to use it:
 
- 
+- When between projects, execute it daily to get new available jobs, validate those manually, and apply if fit
+
+## Notes
+
+- Private repository initially didn't store the OpenAI API key in .env file, that's why a new public repository is created
+- Every search query is custom per website to get the best results
